@@ -11,6 +11,11 @@ Before getting started, make sure you have the following installed:
 - **COTI Metamask Snap** - [beta here](https://github.com/YaruLabs/coti-snap-fork)
 - **Node.js and npm** - Download from [nodejs.org](https://nodejs.org/)
 - **MCP extension for VS Code** - Required to use MCP servers
+- Clone this tutorial on a new project on VS Code.
+
+  ```git
+  git clone https://github.com/plucena/coti_mcp
+  ```
 
 ## VS Code Setup
 
