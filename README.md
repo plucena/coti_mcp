@@ -38,7 +38,7 @@ Before getting started, make sure you have the following installed:
 ```
 
 3. **Restart VS Code** to load the new configuration.
-4. **Verify the setup** by checking that you can see the `coti-mcp` tools in the GitHub Copilot panel.
+4. **Verify the setup** by checking that you can see the `coti-mcp` tools in the GitHub Copilot panel, by clicking the "tools"icon on the right bar on the corner.
 
 ![MCP Server Tools](file1.png)
 
@@ -124,7 +124,7 @@ Check your deployed contract on the COTI testnet explorer:
 
 Add your newly created token to your wallet:
 
-1. Open your COTI-compatible wallet
+1. Open Metamask with COTI SNAP preinstalled.  Reffer to section 1 #Pre requisites.
 2. Add custom token using your contract address
 3. The token should appear with symbol `CPB` and name `CAPYBARA`
 
