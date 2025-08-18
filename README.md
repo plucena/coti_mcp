@@ -8,13 +8,13 @@ Before getting started, make sure you have the following installed:
 
 - **Visual Studio Code** - Download from [code.visualstudio.com](https://code.visualstudio.com/)
 - **GitHub Copilot extension** - Install from VS Code marketplace
+- **COTI Metamask Snap** - [beta here](https://github.com/YaruLabs/coti-snap-fork)
 - **Node.js and npm** - Download from [nodejs.org](https://nodejs.org/)
 - **MCP extension for VS Code** - Required to use MCP servers
 
 ## VS Code Setup
 
 1. **Install the MCP extension** in VS Code from the marketplace.
-
 2. **Create the MCP configuration file** by creating `.vscode/settings.json` in your workspace root:
 
 ```json
@@ -38,7 +38,6 @@ Before getting started, make sure you have the following installed:
 ```
 
 3. **Restart VS Code** to load the new configuration.
-
 4. **Verify the setup** by checking that you can see the `coti-mcp` tools in the GitHub Copilot panel.
 
 ![MCP Server Tools](file1.png)
@@ -58,6 +57,7 @@ create account
 ```
 
 **Expected Output:**
+
 ```
 Great! I've successfully created a new COTI account for you. Here are the details:
 Account Address: 0x...
@@ -75,6 +75,7 @@ testnet YOUR_NEW_ADDRESS_HERE
 ```
 
 **Expected Output:**
+
 ```
 COTI-Faucet
 xxxx faucet transferred 10 COTI (testnet)
@@ -89,6 +90,7 @@ generate aes_key
 ```
 
 **Expected Output:**
+
 ```
 Perfect! I've successfully generated an AES key for your COTI account:
 Account Address: 0x...
@@ -104,6 +106,7 @@ deploy_private_erc20_contract CAPYBARA CPB 6 decimals
 ```
 
 **Expected Output:**
+
 ```
 Excellent! I've successfully deployed a private ERC20 contract on the COTI blockchain.
 Contract Address: 0x...
