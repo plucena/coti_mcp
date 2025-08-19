@@ -58,7 +58,7 @@ Follow these steps to create and deploy a private ERC20 token on the COTI testne
 Create a new COTI account to deploy your smart contract:
 
 ```
-create account
+create_account - coti-mcp
 ```
 
 **Expected Output:**
