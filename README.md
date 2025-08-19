@@ -63,7 +63,7 @@ npm install -g @smithery/cli
 npx -y @smithery/cli@latest run @davibauer/coti-mcp --key d1747d1b-7003-4b13-9393-b6d70d07732f --profile unlikely-whitefish-v7J617
 ```
 
-Create a new COTI account to deploy your smart contract:
+On copilot prompt create a new COTI account to deploy your smart contract:
 
 ```
 create_account - coti-mcp
